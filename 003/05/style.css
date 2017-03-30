@@ -1,0 +1,10 @@
+div{
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    border-radius: 10px;
+    border: 20px groove tomato;
+    background-image: url("http://theradavist.com/wp-content/uploads/2016/04/bicycle-crumbs-grimes-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
