@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+div{
+    height: 70vh;
+    width: 70vh;
+    background-color: deepskyblue;
+    background-image: url("http://orig04.deviantart.net/789b/f/2012/102/f/4/bigger_8_bit_squirtle_by_mickiart14-d4vwhge.png");
+    background-position: center;
+}
+
+div:hover{
+    animation-name: pokemon;
+    animation-timing-function: ease-in;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pokemon {
+    0%{
+        background-color: deepskyblue;
+    }
+
+    100%{
+        background-color:darkslateblue;
+        background-image: url("https://i.kinja-img.com/gawker-media/image/upload/s--1vj1VYF0--/c_scale,f_auto,fl_progressive,q_80,w_800/18z5ycz022rsagif.gif");
+        background-size: cover;
+        transform:rotate(360deg);
+    }
+}

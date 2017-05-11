@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+div{
+    height: 70vh;
+    width: 70vh;
+    background-image: url("http://orig04.deviantart.net/789b/f/2012/102/f/4/bigger_8_bit_squirtle_by_mickiart14-d4vwhge.png");
+    background-position: center;
+
+    animation-name: pokemon;
+    animation-timing-function: ease-in;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+
+}
+
+div:hover{
+    animation-name: pokemon2;
+    animation-timing-function: ease-in;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes pokemon {
+    0%{
+
+    }
+
+    100%{
+        background-image: url("https://i.kinja-img.com/gawker-media/image/upload/s--1vj1VYF0--/c_scale,f_auto,fl_progressive,q_80,w_800/18z5ycz022rsagif.gif");
+        background-size: cover;
+        transform: scale(1.1);
+    }
+}
+
+@keyframes pokemon2 {
+    0%{
+        background-size: cover;
+        background-image: url("https://i.kinja-img.com/gawker-media/image/upload/s--1vj1VYF0--/c_scale,f_auto,fl_progressive,q_80,w_800/18z5ycz022rsagif.gif");
+
+
+
+
+    }
+
+    100%{
+        background-image: url("https://68.media.tumblr.com/a0f0e55555ba27229ad97965d5a1f0ea/tumblr_o6rxakd7lg1txe8e9o1_500.gif");
+        background-size:  cover;
+        transform: scale(1.1);
+    }
+
+}
