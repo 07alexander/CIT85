@@ -11,6 +11,7 @@ div{
     background-color: deepskyblue;
     background-image: url("http://orig04.deviantart.net/789b/f/2012/102/f/4/bigger_8_bit_squirtle_by_mickiart14-d4vwhge.png");
     background-position: center;
+    background-size: cover;
 }
 
 div:hover{
